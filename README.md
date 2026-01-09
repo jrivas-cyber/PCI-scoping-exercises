@@ -7,6 +7,7 @@ Scoping is defined as the identification and tracking of people, processes, and 
 - Identify current and new payment channels in your cardholder data environment (CDE)
 
 Scoping is important because if you don’t have an inventory of your CDE, you won't be able to know what PCI assets to protect from ongoing threats whether internal or external.
+<img width="1089" height="760" alt="Screenshot 2026-01-09 063146" src="https://github.com/user-attachments/assets/21d06ebc-c5f2-4568-97ac-e3b0db28ca40" />
 
 _**Inception State:**_ organization has no existing policy or vulnerability management practices in place.
 
