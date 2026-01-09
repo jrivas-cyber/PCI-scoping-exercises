@@ -2,11 +2,17 @@
 
 ---
 
-Scoping is defined as the identification and tracking of people, processes, and technologies that interact with or could otherwise impact the security of account data. Scoping should be performed on an annual basis (at minimum) to:
-- Validate all people, processes and technologies that handle account data
-- Identify current and new payment channels in your cardholder data environment (CDE)
+Scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your environment.
 
-Scoping is important because if you don’t have an inventory of your CDE, you won't be able to know what PCI assets to protect from ongoing threats whether internal or external.
+Key items of consider:
+- Scoping exercises hould be performed on an annual basis (at minimum)
+- Should include validation of people, processes and technologies that handle account data in your cardholder data environment (CDE)
+- Should include the identification of current and new payment channels
+
+---
+
+To identify systems that would be in-scope vs out-of-scope, there are two questions to consider:
+1. Does this system 
 <img width="1089" height="760" alt="Screenshot 2026-01-09 063146" src="https://github.com/user-attachments/assets/21d06ebc-c5f2-4568-97ac-e3b0db28ca40" />
 
 _**Inception State:**_ organization has no existing policy or vulnerability management practices in place.
