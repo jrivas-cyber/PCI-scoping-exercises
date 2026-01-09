@@ -27,7 +27,7 @@ Systems are out-of-scope when:
 ---
 # Creating sustainable, long-term processes for success
 
-In this project, we simulate an organization that is just starting their scoping journey with the goal of identifying and tracking in-scope systems that form their CDE.
+In this project, we simulate an organization that is just starting their scoping journey with the goal of identifying and tracking both in-scope and out-of-scope systems.
 
 _**Inception State:**_ organization has no existing policies, standards or processes in place to identify their CDE.
 
