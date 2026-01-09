@@ -1,10 +1,10 @@
 # Scoping your CDE
 
-Generally speaking, scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your environment.
+Generally speaking, scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your cardholder data environment (CDE).
 
-Key items of consider:
+Key items to consider:
 - Scoping exercises hould be performed on an annual basis (at minimum)
-- Should include validation of people, processes and technologies that handle account data in your cardholder data environment (CDE)
+- Should include validation of people, processes and technologies that handle account data in your CDE
 - Should include the identification of current and new payment channels
 
 ---
