@@ -1,7 +1,5 @@
 # Scoping your CDE
 
----
-
 Scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your environment.
 
 Key items of consider:
@@ -11,22 +9,33 @@ Key items of consider:
 
 ---
 
-To identify systems that would be in-scope vs out-of-scope, there are two questions to consider:
-1. Does this system 
 <img width="1089" height="760" alt="Screenshot 2026-01-09 063146" src="https://github.com/user-attachments/assets/21d06ebc-c5f2-4568-97ac-e3b0db28ca40" />
 
-_**Inception State:**_ organization has no existing policy or vulnerability management practices in place.
+# In-scope vs out-of-scope systems
 
-_**Completion State:**_ formal policies and standards are enacted, stakeholders are bought-in, and a full cycle of organization-wide vulnerability remediation is successfully completed.
+In general, systems are considered to be in-scope when:
+- They store, process, or transmit account data
+- They are on the same network segment (i.e., same subnet or VLAN) as systems that store, process or transmit account data
+- They can impact the configurations or security of the CDE 
+
+Systems are out-of-scope when:
+- They do NOT store, process, or transmit account data
+- They are NOT on the same network segment (i.e., same subnet or VLAN) as systems that store, process or transmit account data
+- They cannot connect to any system in the CDE and do NOT impact configurations or security of the CDE
+
+---
+# Creating sustainable, long-term processes for success
+
+In this project, we simulate an organization that is just starting their scoping journey with the goal of identifying and tracking in-scope systems that form their CDE.
+
+_**Inception State:**_ organization has no existing policies, standards or processes in place to identify their CDE.
+
+_**Completion State:**_ formal policies, standards and processes are created, stakeholders are bought-in to their annual scoping responsibilities, and a full cycle of scoping exercises are is successfully completed.
 
 ---
 
-<img width="1000" alt="image" src="https://github.com/user-attachments/assets/cfc5dbcf-3fcb-4a71-9c13-2a49f8bab3e6">
-
 # Technology Utilized
-- Tenable (enterprise vulnerability management platform)
-- Azure Virtual Machines (Nessus scan engine + scan targets)
-- PowerShell & BASH (remediation scripts)
+- PowerShell & BASH scripts (rule out storage of account data across the organization)
 
 ---
 
