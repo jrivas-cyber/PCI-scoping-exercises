@@ -20,9 +20,9 @@ Systems are in-scope when:
 - They can impact the configurations or security of the CDE 
 
 Systems are out-of-scope when:
-- They do **not** store, process, or transmit account data
-- They are **not** on the same network segment (_i.e., same subnet or VLAN_) as systems that store, process or transmit account data
-- They **cannot** connect to any system in the CDE and do **not** impact configurations or security of the CDE
+- They do **_not_** store, process, or transmit account data
+- They are **_not_** on the same network segment (_i.e., same subnet or VLAN_) as systems that store, process or transmit account data
+- They **_cannot_** connect to any system in the CDE and do **_not_** impact configurations or security of the CDE
 
 ---
 # Creating sustainable, long-term processes for success
