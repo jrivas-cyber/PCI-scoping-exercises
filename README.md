@@ -6,7 +6,7 @@ Key items to consider:
 - Scoping exercises should be performed annually (_at minimum_)
 - Should include validation of people, processes and technologies that handle account data
 - Should include the identification of all current and new payment channels
-- Include policies and standards that enforce PCI requirements in your organization 
+- Include policies and standards that enforce PCI requirements for your organization 
 
 ---
 
