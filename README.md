@@ -3,9 +3,10 @@
 Generally speaking, scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your cardholder data environment (CDE).
 
 Key items to consider:
-- Scoping exercises hould be performed on an annual basis (at minimum)
-- Should include validation of people, processes and technologies that handle account data in your CDE
-- Should include the identification of current and new payment channels
+- Scoping exercises should be performed annually (at minimum)
+- Should include validation of people, processes and technologies that handle account data
+- Should include the identification of all current and new payment channels
+- Include policies and standards that enforce PCI requirements in your organization 
 
 ---
 
