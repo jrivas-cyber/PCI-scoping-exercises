@@ -43,24 +43,15 @@ _**Completion State:**_ formal policies, standards and processes are created, st
 
 # Table of Contents
 
-- [Vulnerability Management Policy Draft Creation](#step-1-vulnerability-management-policy-draft-creation)
-- [Meeting: Policy Buy-In with Stakeholders](#step-2-meeting-policy-buy-in-with-stakeholders)
-- [Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
-- [Meeting: Initial Scan Permission with Server Team](#step-4-meeting-initial-scan-permission-with-server-team)
-- [Initial Scan of Server Team Assets](#step-5-initial-scan-of-server-team-assets)
-- [Vulnerability Assessment and Prioritization](#step-6-vulnerability-assessment-and-prioritization)
-- [Distributing Remediations to Remediation Teams](#step-7-distributing-remediations-to-remediation-teams)
-- [Meeting: Post-Initial Discovery Scan with Server Team](#step-8-meeting-post-initial-discovery-scan-with-server-team)
-- [CAB Meeting: Implementing Remediations](#step-9-cab-meeting-implementing-remediations)
-- [Remediation Round 1: Outdated Wireshark Removal](#remediation-round-1-outdated-wireshark-removal)
-- [Remediation Round 2: Insecure Protocols and Ciphers](#remediation-round-2-insecure-protocols-and-ciphers)
-- [Remediation Round 3: Guest Account Group Membership](#remediation-round-3-guest-account-group-membership)
-- [Remediation Round 4: Windows OS Updates](#remediation-round-4-windows-os-updates)
-- [First Cycle Remediation Effort Summary](#first-cycle-remediation-effort-summary)
+- [Gather a full list of merchant IDs (MIDs)](#step-1-gather-a-full-list-of-MIDs)
+- [Creating data flow diagrams](#step-2-creating-data-flow-diagrams)
+- [Creating network diagrams](#step-3-creating-network-diagrams)
+- [Identifying in-scope software](#step-4-identifying-in-scope-software)
+- [Identifying in-scope hardware](#step-5-identifying-in-scope-hardware)
 
 ---
 
-### Step 1) Vulnerability Management Policy Draft Creation
+### Step 1) Gather a full list of MIDs
 
 We focus on drafting a Vulnerability Management Policy as a starting point for stakeholder engagement. The initial draft outlines scope, responsibilities, and remediation timelines using industry standards. The policy may be adjusted based on feedback from relevant departments to ensure practical implementation before final approval by upper management.  
 
@@ -68,7 +59,7 @@ We focus on drafting a Vulnerability Management Policy as a starting point for s
 
 ---
 
-### Step 2) Meeting: Policy Buy-In with Stakeholders
+### Step 2) Creating data flow diagrams
 
 In this phase, we meet with the server team to introduce the policy draft and assess their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window, ensuring collaborative implementation.
 
@@ -96,7 +87,7 @@ In this phase, we meet with the server team to introduce the policy draft and as
 
 ---
 
-### Step 3) Policy Finalization and Senior Leadership Sign-Off
+### Step 3) Creating network diagrams
 
 After gathering feedback from the server team, the policy is revised, deciding on appropriate remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
 
@@ -108,7 +99,7 @@ After gathering feedback from the server team, the policy is revised, deciding o
 
 ---
 
-### Step 4) Meeting: Initial Scan Permission with Server Team
+### Step 4) Identifying in-scope software
 
 The cyber team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time AD credentials for secure, controlled access.
 
@@ -139,7 +130,7 @@ The cyber team collaborates with the server team to initiate scheduled credentia
 
 ---
 
-### Step 5) Initial Scan of Server Team Assets
+### Step 5) Identifying in-scope hardware
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and results are exported for future remediation.  
 
