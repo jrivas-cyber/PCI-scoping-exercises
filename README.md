@@ -1,6 +1,6 @@
 # Scoping your CDE
 
-Scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your environment.
+Generally speaking, scoping can be defined as the identification and tracking of people, processes, and technologies that directly interact with account data or could impact the security of account data in your environment.
 
 Key items of consider:
 - Scoping exercises hould be performed on an annual basis (at minimum)
@@ -13,7 +13,7 @@ Key items of consider:
 
 # In-scope vs out-of-scope systems
 
-In general, systems are considered to be in-scope when:
+Systems are in-scope when:
 - They store, process, or transmit account data
 - They are on the same network segment (i.e., same subnet or VLAN) as systems that store, process or transmit account data
 - They can impact the configurations or security of the CDE 
